@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: bisque;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quos pariatur maiores id aut officiis, unde eligendi voluptas obcaecati necessitatibus recusandae fugit eveniet aliquid doloribus adipisci! Repellendus temporibus soluta ipsum.</p>
+    <script>
+        //windows.prompt transforma qualquer dato recebido em uma string entao para fazer a soma de numero eles precisam ser convertidos antes de realizar a operação, com parseInt, parseFloat ou number.
+       var n1 = Number(window.prompt('digite um numero: '))
+       var n2 = Number(window.prompt('digite outro numero: '))
+       var r = n1 + n2 ;
+       //forma de apresentar uma string com concatenação
+       //window.alert('a soma dos valores é: ' + r);
+       //forma de apresentar uma string usando placehoders
+       window.alert(`a soma dos valores ${n1} e ${n2} é: ${r}`);
+    </script>
+</body>
+</html>
